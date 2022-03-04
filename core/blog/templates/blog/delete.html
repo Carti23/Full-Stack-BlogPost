@@ -1,0 +1,44 @@
+{% extends 'blog/base.html' %}
+
+{% block title %}
+Delete page
+{% endblock %}
+
+{% block content %}
+<style>
+	.form{
+		margin-top: 70px;
+		margin-left: 500px;
+	}
+
+  body{
+		background: linear-gradient(45deg, #0F2027, #203A43, #2C5364);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+	}
+	@keyframes gradient{
+		0%{
+			background-position: 0 50%;
+		}
+		50%{
+			background-position: 100% 50%;
+		}
+		100%{
+			background-position: 0 50%;
+		}
+  }
+
+
+  .btn{
+    font-size: 30px;
+    margin-left: 150px;
+  }
+
+</style>
+
+
+<form method="POST" action="" class="form">
+	{% csrf_token %}
+	<button type="submit" class="btn btn-danger">Delete</button>
+</form>
+{% endblock %}

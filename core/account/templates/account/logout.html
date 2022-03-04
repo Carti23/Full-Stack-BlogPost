@@ -1,0 +1,27 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<style>
+    body{
+		background: linear-gradient(45deg, #0F2027, #203A43, #2C5364);
+		background-size: 400% 400%;
+		animation: gradient 10s ease infinite;
+	}
+	@keyframes gradient{
+		0%{
+			background-position: 0 50%;
+		}
+		50%{
+			background-position: 100% 50%;
+		}
+		100%{
+			background-position: 0 50%;
+		}
+	}
+</style>
+    <h2>You have been logged out.</h2>
+    <div class="border-top pt-3">
+        <small class="text-muted">
+            <a href="{% url 'account:login' %}">Log In Again</a>
+        </small>
+    </div>
+{% endblock content %}
