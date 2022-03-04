@@ -18,6 +18,7 @@ Afte all set up, please write to the console
 ```bash
 pyton or python3 (depends of your system) manage.py makemigrations
 python or python3 (depends of your system) manage.py migrate
+python or python3 (depends of your system) manage.py runserver
 ```
 If you want to use admin panel use this command:
 ```bash
