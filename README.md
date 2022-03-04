@@ -19,6 +19,10 @@ Afte all set up, please write to the console
 pyton or python3 (depends of your system) manage.py makemigrations
 python or python3 (depends of your system) manage.py migrate
 ```
+If you want to use admin panel use this command:
+```bash
+pyton or python3 (depends of your system) manage.py createsuperuser
+```
 ## My soicial link
 ```bash
 instagram - https://www.instagram.com/r.okhrimets/
