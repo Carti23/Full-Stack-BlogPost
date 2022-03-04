@@ -1,7 +1,7 @@
 
 
 ## Full Stack Blog Post
-Backed for the ecommerce
+Full Stack coding
 ## Packages to install
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all packages.
 
@@ -9,8 +9,8 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all pac
 pip install django
 pip install djangorestframework
 pip install django-rest-knox
-pip install django-filter
 pip install django-rest-swagger
+pip install django-rest-passwordreset
 ```
 
 ## Add to the INSTALED_APPS (in settings.py)
